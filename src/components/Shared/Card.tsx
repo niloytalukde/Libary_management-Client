@@ -37,7 +37,7 @@ const Card = ({ book }: BookProps) => {
   return (
     <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-1 border border-gray-200 p-6 flex flex-col">
       {/* Header */}
-      <div className="bg-gradient-to-r from-orange-500 to-orange-600 rounded-xl p-4 mb-5">
+      <div className="bg-gradient-to-r from-primary to-purple-600 rounded-xl p-4 mb-5">
         <h2 className="text-white text-2xl font-bold text-center truncate">
           {book?.title}
         </h2>

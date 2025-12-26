@@ -24,7 +24,7 @@ const AllBook = () => {
   return (
     <>
       <section className="w-11/12 mx-auto py-10 p-3">
-        <h2 className="text-3xl font-bold text-center text-orange-500 mb-10">
+        <h2 className="text-3xl font-bold text-center text-primary mb-10">
           All Available Books
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
