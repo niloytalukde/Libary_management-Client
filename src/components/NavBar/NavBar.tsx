@@ -6,8 +6,8 @@ const NavBar = () => {
 
   const navLinkStyle = ({ isActive }: { isActive: boolean }) =>
     isActive
-      ? "!text-red-500 font-semibold !bg-transparent"
-      : "text-black hover:text-red-500 hover:!bg-transparent transition";
+      ? "!text-primary font-semibold !bg-transparent"
+      : "text-black hover:text-secondary hover:!bg-transparent transition";
 
   const links = (
     <>
@@ -40,7 +40,7 @@ const NavBar = () => {
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <NavLink to="/" className="flex items-center gap-2">
-            <span className="text-orange-500 font-bold text-xl">BookCafe</span>
+            <span className="text-primary font-bold text-xl">Book Mama</span>
           </NavLink>
 
           {/* Desktop Menu*/}
