@@ -18,7 +18,7 @@ const BorrowSummary = () => {
 
     return (
         <div className="py-12 px-4 sm:px-6 lg:px-10 w-full max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center text-orange-500">
+            <h2 className="text-3xl font-bold mb-8 text-center text-primary">
                 Borrow Summary
             </h2>
 
@@ -26,16 +26,16 @@ const BorrowSummary = () => {
                 <Table className="w-full text-sm text-gray-700">
                     <TableHeader className="bg-blue-100">
                         <TableRow>
-                            <TableHead className="text-center font-semibold text-orange-500">
+                            <TableHead className="text-center font-semibold text-primary">
                                 #
                             </TableHead>
-                            <TableHead className="text-center font-semibold text-orange-500">
+                            <TableHead className="text-center font-semibold text-primary">
                                 Book Title
                             </TableHead>
-                            <TableHead className="text-center font-semibold text-orange-500">
+                            <TableHead className="text-center font-semibold text-primary">
                                 ISBN
                             </TableHead>
-                            <TableHead className="text-center font-semibold text-orange-500">
+                            <TableHead className="text-center font-semibold text-primary">
                                 Total Quantity
                             </TableHead>
                         </TableRow>
